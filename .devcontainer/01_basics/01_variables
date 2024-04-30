@@ -1,0 +1,13 @@
+const accountid= 144553
+let accountemail = "hitesh@email.com"
+var accountpassword = "12345"
+accountcity = "jaipur"
+
+//accountid = 2 not allowed with const keyword
+accountemail = "hc@hc.com"
+accountpassword = "21212121"
+accountcity="bengluru"
+/* prefer not to use var becasue of block scope and functional scope */
+console.log(accountid);
+
+console.table([accountid,accountemail,accountpassword,accountcity])
